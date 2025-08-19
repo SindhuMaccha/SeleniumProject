@@ -42,7 +42,7 @@ public class PopupAlerts {
 	  driver.findElement(By.xpath("//*[@id=\"post-748\"]/div/div/div/div/div/div/div/button")).click();
 	  Thread.sleep(2000);
 	  Alert alert=driver.switchTo().alert();
-	  alert.sendKeys("Sindhu");
+	  alert.sendKeys("Sindhu Maccha");
 	  alert.accept();
   }
   @BeforeTest
