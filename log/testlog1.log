@@ -1,0 +1,13 @@
+2025-08-05 14:20:20,016 [main] INFO VerifyLoginpage - Chrome Browser Luanched
+2025-08-05 14:20:20,069 [main] INFO VerifyLoginpage - Browser window Maximized
+2025-08-05 14:20:25,902 [main] INFO VerifyLoginpage - Navigate to the Techlearn login page
+2025-08-05 14:20:27,908 [main] INFO VerifyLoginpage - Wait for 2 Seconds
+2025-08-05 14:21:08,802 [main] INFO VerifyLoginpage - Chrome Browser Luanched
+2025-08-05 14:21:08,856 [main] INFO VerifyLoginpage - Browser window Maximized
+2025-08-05 14:21:14,525 [main] INFO VerifyLoginpage - Navigate to the Techlearn login page
+2025-08-05 14:21:16,533 [main] INFO VerifyLoginpage - Wait for 2 Seconds
+2025-08-05 14:21:16,625 [main] INFO VerifyLoginpage - admin user enter in username or email field
+2025-08-05 14:22:10,334 [main] INFO VerifyLoginpage - Chrome Browser Luanched
+2025-08-05 14:22:10,376 [main] INFO VerifyLoginpage - Browser window Maximized
+2025-08-05 14:22:15,606 [main] INFO VerifyLoginpage - Navigate to the Techlearn login page
+2025-08-05 14:22:17,622 [main] INFO VerifyLoginpage - Wait for 2 Seconds

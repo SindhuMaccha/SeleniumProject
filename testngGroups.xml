@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  <run>
+    <include name="social"></include>
+    <include name="bugtool"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="testNG.J_TestNG_TCs_Run_Groups"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
