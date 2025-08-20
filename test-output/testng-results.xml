@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-12T13:27:17 IST" name="Default suite" finished-at="2025-08-12T13:27:42 IST" duration-ms="24935">
+  <suite started-at="2025-08-20T07:51:40 IST" name="Default suite" finished-at="2025-08-20T07:51:50 IST" duration-ms="10159">
     <groups>
     </groups>
-    <test started-at="2025-08-12T13:27:17 IST" name="Default test" finished-at="2025-08-12T13:27:42 IST" duration-ms="24935">
-      <class name="clearmethod.ClearMethod1">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:clearmethod.ClearMethod1@6f4a47c7]" started-at="2025-08-12T13:27:17 IST" name="beforeTest" finished-at="2025-08-12T13:27:18 IST" duration-ms="1461" status="PASS">
+    <test started-at="2025-08-20T07:51:40 IST" name="Default test" finished-at="2025-08-20T07:51:50 IST" duration-ms="10159">
+      <class name="pagescrolldownandup.ScrollDownandUp">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pagescrolldownandup.ScrollDownandUp@2de23121]" started-at="2025-08-20T07:51:40 IST" name="beforeTest" finished-at="2025-08-20T07:51:44 IST" duration-ms="4391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="clearMethod()[pri:0, instance:clearmethod.ClearMethod1@6f4a47c7]" started-at="2025-08-12T13:27:18 IST" name="clearMethod" finished-at="2025-08-12T13:27:42 IST" duration-ms="23418" status="PASS">
+        <test-method signature="IndentifyLoacatorElement()[pri:0, instance:pagescrolldownandup.ScrollDownandUp@2de23121]" started-at="2025-08-20T07:51:44 IST" name="IndentifyLoacatorElement" finished-at="2025-08-20T07:51:49 IST" duration-ms="4740" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clearMethod -->
-      </class> <!-- clearmethod.ClearMethod1 -->
+        </test-method> <!-- IndentifyLoacatorElement -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:pagescrolldownandup.ScrollDownandUp@2de23121]" started-at="2025-08-20T07:51:49 IST" name="afterTest" finished-at="2025-08-20T07:51:50 IST" duration-ms="698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- pagescrolldownandup.ScrollDownandUp -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

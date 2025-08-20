@@ -14,11 +14,6 @@ public class WithOutBrowser {
 		  ChromeOptions co=new ChromeOptions();
 		  co.addArguments("headless");
 		  driver=new ChromeDriver(co);  
-		   
-		// driver = new ChromeDriver();
-		// driver.manage().window().maximize();
-		  
-		  
 		  driver.get("https://www.seleniumlearn.com/");
 		  
 		  String exptab = "Home - Seleniumlearn.com";
