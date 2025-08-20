@@ -8,7 +8,8 @@ import org.testng.annotations.BeforeTest;
 public class Sindhu {
 	WebDriver driver;
   @Test
-  public void f() {
+  public void facebook() {
+	  driver.get("https://www.facebook.com");
 	  
   }
   @BeforeTest
