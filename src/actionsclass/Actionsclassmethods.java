@@ -8,12 +8,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterTest;
 
 public class Actionsclassmethods {
 	WebDriver driver;
   @Test
   public void rightClick() throws InterruptedException {
-	  driver.get("https://www.techlearn.in");
+	  driver.get("https://www.techlearn.in/");
 	  Thread.sleep(2000);
 	  
 	  Actions act=new Actions(driver);
@@ -52,7 +53,7 @@ public class Actionsclassmethods {
   @Test(invocationCount=5)
   public void keyboardFunctions() throws InterruptedException {
 	  driver.get("https://www.techlearn.in/admin");
-	  Thread.sleep(2000);
+	  Thread.sleep(5000);
 	  
 	  Actions act=new Actions(driver);
 	  act.sendKeys(Keys.TAB).build().perform();
@@ -74,5 +75,8 @@ public class Actionsclassmethods {
 	  driver=new ChromeDriver();
 	  driver.manage().window().maximize();
   }
-
+@AfterTest
+  public void afterTest() {
+  driver.quit();
+  }
 }
