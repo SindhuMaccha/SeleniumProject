@@ -15,8 +15,8 @@ public class PopupAlerts {
 	  Thread.sleep(2000);
 	  driver.findElement(By.xpath("//*[@id=\"post-725\"]/div/div/div/div/div/div/div/button")).click();
 	  Thread.sleep(2000);
-	  driver.switchTo().alert().accept();
-  }
+	  driver.switchTo().alert().dismiss();
+	  }
   @Test
   public void alertcancelbuttonpress() throws InterruptedException {
 	  driver.get("https://www.techlearn.in/code/confirmation-dialog-box/");

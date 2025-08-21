@@ -19,7 +19,7 @@ public class Log4jframework {
 			
 			driver = new ChromeDriver();	
 			log.info("Chrome Browser Luanched");
-			
+			Thread.sleep(2000);
 			driver.manage().window().maximize();
 			log.info("Browser window Maximized");
 			
