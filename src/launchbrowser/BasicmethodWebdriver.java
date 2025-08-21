@@ -14,7 +14,7 @@ public class BasicmethodWebdriver {
 		Thread.sleep(2000);
 		driver.manage().window().fullscreen();
 		Thread.sleep(2000);
-		driver.close();
+		
 		driver.quit();
 	}
 
