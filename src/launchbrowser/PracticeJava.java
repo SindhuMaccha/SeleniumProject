@@ -12,9 +12,9 @@ public class PracticeJava {
 		 Thread.sleep(2000);
 		 driver.manage().window().maximize();
 		 Thread.sleep(2000);
-		 driver.get("https://www.google.com");
+		 driver.get("https://www.google.com/");
 		 Thread.sleep(2000);
-		 driver.navigate().to("https://www.facebook.com");
+		 driver.navigate().to("https://www.facebook.com/");
 		 Thread.sleep(2000);
 		 driver.navigate().back();
 		 Thread.sleep(2000);
@@ -22,12 +22,11 @@ public class PracticeJava {
 		 Thread.sleep(2000);
 		 driver.navigate().refresh();
 		 Thread.sleep(2000);
-		 driver.navigate().to("https://www.zomato.com");
+		 driver.navigate().to("https://www.zomato.com/");
 		 Thread.sleep(2000);
 		 driver.navigate().to("https://www.techlearn.in");
 		 Thread.sleep(2000);
-		 
-		 driver.close();
+		 driver.quit();
 		 
 
 	}
